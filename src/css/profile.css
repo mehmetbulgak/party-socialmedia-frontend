@@ -1,0 +1,131 @@
+.profile-container{
+    width: 80%;
+    margin: 20px auto
+}
+
+.line{
+    background-color: #F37A6F;
+    height: 1.5px;
+    margin: 10px 0;
+}
+
+.profile-first{
+    display: flex;
+    align-items: center;
+}
+
+.profile-first img{
+    width: 300px;
+    margin-right: 50px;
+}
+
+.profile-bio{
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.edit-btn{
+    text-decoration: none;
+    color: #F37A6F;
+    border: 1px solid #F37A6F;
+    padding: 8px 15px;
+    margin-right: 20px;
+    transition: 0.3s ease-in;
+}
+
+.edit-btn:hover{
+    color: white;
+    background-color: #F37A6F;
+}
+
+.active-btn{
+    background-color: #F37A6F;
+    border: 1px solid #F37A6F;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.active-btn:hover{
+    color: #F37A6F;
+    background-color: white;
+    border: 1px solid #F37A6F;
+}
+
+.profile-second{
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.followers p{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.followers a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #F37A6F;
+}
+
+.following p{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.following a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #F37A6F;
+}
+
+.posts p{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.posts a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #F37A6F;
+}
+
+.follow-btn{
+    background-color: #F37A6F;
+    border: 1px solid #F37A6F;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: 0.3s ease-in; 
+}
+
+.follow-btn:hover{
+    color: #F37A6F;
+    background-color: white;
+    border: 1px solid #F37A6F;
+}
+
+.unfollow-btn{
+    background-color: #F37A6F;
+    border: 1px solid #F37A6F;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: 0.3s ease-in; 
+}
+
+.unfollow-btn:hover{
+    color: #F37A6F;
+    background-color: white;
+    border: 1px solid #F37A6F;
+}
